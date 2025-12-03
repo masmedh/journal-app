@@ -5,12 +5,14 @@ A beautiful iOS journal application built with SwiftUI that allows users to capt
 ## Features
 
 ### 📝 Journal Entries
+
 - Create, edit, and delete journal entries
 - Rich text editor for detailed entries
 - Custom titles for each entry
 - Date and time picker for backdating entries
 
 ### 😊 Mood Tracking
+
 - Track your mood for each entry with 5 different moods:
   - Amazing ⭐
   - Happy 😊
@@ -20,6 +22,7 @@ A beautiful iOS journal application built with SwiftUI that allows users to capt
 - Visual mood indicators with colors and icons
 
 ### 🏠 Home Dashboard
+
 - Summary cards showing:
   - Total number of entries
   - Current writing streak
@@ -28,17 +31,20 @@ A beautiful iOS journal application built with SwiftUI that allows users to capt
 - Recent entries list with preview
 
 ### 📅 Calendar View
+
 - Interactive calendar with month navigation
 - Visual indicators for days with journal entries
 - View all entries for a specific date
 - Create entries for any date
 
 ### 👤 Profile & Settings
+
 - User statistics
 - Settings options
 - Export data capability
 
 ### 🎨 Beautiful UI
+
 - Modern iOS design with SwiftUI
 - Smooth animations and transitions
 - Gradient backgrounds
@@ -75,6 +81,7 @@ MyNewJournalApp/
 ## Getting Started
 
 ### Prerequisites
+
 - Xcode 15.0 or later
 - macOS 14.0 or later
 - iOS 17.0+ device or simulator
@@ -82,11 +89,13 @@ MyNewJournalApp/
 ### Installation
 
 1. Clone this repository:
+
 ```bash
 git clone https://github.com/yourusername/journal-app.git
 ```
 
 2. Open the project in Xcode:
+
 ```bash
 cd journal-app/MyNewJournalApp
 open MyNewJournalApp.xcodeproj
@@ -108,7 +117,7 @@ open MyNewJournalApp.xcodeproj
 
 ## Screenshots
 
-*Add screenshots here*
+_Add screenshots here_
 
 ## Sample Data
 
