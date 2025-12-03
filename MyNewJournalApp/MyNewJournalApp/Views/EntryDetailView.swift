@@ -133,5 +133,5 @@ struct EntryDetailView: View {
             )
         )
     }
-    .environmentObject(JournalViewModel())
+    .environmentObject(PreviewHelper.shared.viewModel)
 }

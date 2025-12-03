@@ -91,3 +91,6 @@ iOSInjectionProject/
 
 # Mac
 .DS_Store
+
+# Firebase config (keep out of public repos)
+MyNewJournalApp/MyNewJournalApp/GoogleService-Info.plist

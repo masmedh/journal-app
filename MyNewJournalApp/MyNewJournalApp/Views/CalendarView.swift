@@ -284,5 +284,5 @@ struct CalendarEntryCard: View {
 
 #Preview {
     CalendarView()
-        .environmentObject(JournalViewModel())
+        .environmentObject(PreviewHelper.shared.viewModel)
 }

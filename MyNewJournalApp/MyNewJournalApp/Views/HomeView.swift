@@ -247,5 +247,5 @@ struct EmptyStateView: View {
 
 #Preview {
     HomeView()
-        .environmentObject(JournalViewModel())
+        .environmentObject(PreviewHelper.shared.viewModel)
 }

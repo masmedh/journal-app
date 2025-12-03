@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MainTabView: View {
-    @StateObject private var viewModel = JournalViewModel()
+    @EnvironmentObject var viewModel: JournalViewModel
     @State private var selectedTab = 0
     
     var body: some View {
@@ -31,7 +31,6 @@ struct MainTabView: View {
                 }
                 .tag(2)
         }
-        .environmentObject(viewModel)
     }
 }
 
@@ -116,4 +115,5 @@ struct StatRow: View {
 
 #Preview {
     MainTabView()
+        .environmentObject(PreviewHelper.shared.viewModel)
 }

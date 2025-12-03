@@ -174,5 +174,5 @@ struct EditEntryView: View {
             mood: .amazing
         )
     )
-    .environmentObject(JournalViewModel())
+    .environmentObject(PreviewHelper.shared.viewModel)
 }

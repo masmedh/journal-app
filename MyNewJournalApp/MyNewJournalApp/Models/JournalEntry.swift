@@ -12,13 +12,15 @@ struct JournalEntry: Identifiable, Codable {
     var title: String
     var content: String
     var date: Date
+    var updatedAt: Date
     var mood: Mood
     
-    init(id: UUID = UUID(), title: String, content: String, date: Date = Date(), mood: Mood = .neutral) {
+    init(id: UUID = UUID(), title: String, content: String, date: Date = Date(), updatedAt: Date = Date(), mood: Mood = .neutral) {
         self.id = id
         self.title = title
         self.content = content
         self.date = date
+        self.updatedAt = updatedAt
         self.mood = mood
     }
 }

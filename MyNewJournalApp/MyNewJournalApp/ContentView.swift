@@ -180,4 +180,5 @@ struct FeatureRow: View {
 
 #Preview {
     ContentView()
+        .environmentObject(PreviewHelper.shared.viewModel)
 }

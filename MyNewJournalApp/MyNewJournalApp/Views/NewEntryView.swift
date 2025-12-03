@@ -195,5 +195,5 @@ struct MoodButton: View {
 
 #Preview {
     NewEntryView()
-        .environmentObject(JournalViewModel())
+        .environmentObject(PreviewHelper.shared.viewModel)
 }
